@@ -220,7 +220,7 @@ bool Application::Init(int w, int h)
 	// オーディオ初期化
 	//===================================================================
 	KdAudioManager::Instance().Init();
-	m_test = 349;
+	
 
 	return true;
 }
